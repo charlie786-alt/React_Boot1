@@ -1,0 +1,96 @@
+.form_box{
+    background-color: rgb(236, 245, 233);
+    min-height: 50rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0.1rem 0.1rem 0.6rem black;
+    margin-bottom: 2rem;
+}
+.form_left{
+    /* background-color: cadetblue; */
+    border: 3px solid lightgray;
+    border-radius: 2rem;
+    min-height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form_left >h2{
+    color: brown;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.form_left > h4{
+    text-align: center;
+    color: rgb(212, 172, 120);
+    margin-bottom: 3rem;
+}
+.form_left>img{
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.6rem black;
+    margin-bottom: 2rem;
+}
+
+.form_right{
+    box-shadow: 0.1rem 0.1rem 0.6rem black;
+    display: flex;
+    flex-direction: column;
+    min-height: 80%;
+   
+}
+.form_main{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+  
+ 
+}
+.form_main > label{
+    margin-bottom: 1rem;
+}
+.form_main > label > h4{
+    color: brown;
+    font-weight: bold;
+  
+}
+.form_main > input{
+    font-size: 2rem;
+    /* padding: 1.4rem; */
+ min-width: 60% !important;
+   border-radius: 4rem;
+   border: 2px solid brown;
+    margin-bottom: 2rem;
+    border-radius: 4rem;
+    /* border: 2px solid rgb(236, 245, 233); */
+    
+}
+.form_main > input::placeholder{
+    color: rgb(19, 38, 44);
+    font-size: 1.4rem;
+    padding-left: 1rem;
+    
+    /* text-align: center; */
+    /* margin-left: 2rem; */
+  
+}
+.form_main > input:focus{
+    outline: red;
+    border: none;
+}
+.btnsubmit{
+    text-align: center;
+    min-width: 60%;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
+@media only screen and (max-width:768px){
+    .form_left{
+        margin-bottom: 2rem;
+    }
+}
